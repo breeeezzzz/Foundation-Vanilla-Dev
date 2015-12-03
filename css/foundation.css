@@ -64,7 +64,8 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  position: relative; }
+  position: relative;
+  }
 
 a:hover {
   cursor: pointer; }
@@ -3117,9 +3118,10 @@ meta.foundation-mq-topbar {
     display: none; } }
 [data-magellan-expedition], [data-magellan-expedition-clone] {
   background: #FFFFFF;
-  min-width: 100%;
+  /* min-width: 100%; */
   padding: 10px;
-  z-index: 50; }
+  z-index: 50;
+  }
   [data-magellan-expedition] .sub-nav, [data-magellan-expedition-clone] .sub-nav {
     margin-bottom: 0; }
     [data-magellan-expedition] .sub-nav dd, [data-magellan-expedition-clone] .sub-nav dd {
@@ -3436,7 +3438,8 @@ meta.foundation-mq-topbar {
     margin: 0;
     margin-bottom: 1.25rem !important;
     max-width: 20%;
-    width: 20%; }
+    width: 20%;
+    }
 
   .tabs-content.vertical {
     float: left;
@@ -3720,8 +3723,9 @@ td {
 /* Default Link Styles */
 a {
   color: #008CBA;
-  line-height: inherit;
-  text-decoration: none; }
+  /* line-height: inherit; */
+  text-decoration: none;
+  }
   a:hover, a:focus {
     color: #0078a0; }
   a img {

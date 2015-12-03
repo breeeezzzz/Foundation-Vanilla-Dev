@@ -16,7 +16,9 @@ li.divider {display:none;}
 
 ul li { margin-bottom:-1.25rem;}
 
-.pane {	height: 85vh; }
+ul.magellan li { line-height:3rem;}
+
+.page {	height: 85vh; }
 
 .page.page1 {
 	background-color: #fff;
@@ -60,3 +62,9 @@ ul li { margin-bottom:-1.25rem;}
 .top-bar-section li.active:not(.has-form) a:not(.button) {
     background: #333333;
 }
+
+.hideme
+{
+    opacity:0;
+}
+
